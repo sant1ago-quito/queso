@@ -60,3 +60,16 @@ footer {
         padding: 10px;
     }
 }
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+img {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+p {
+    max-width: 600px; /* Limita el ancho del texto para mejor lectura */
+    text-align: justify; /* Justifica el texto */
+}
