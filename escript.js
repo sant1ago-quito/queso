@@ -12,7 +12,7 @@ class PremiosOscar extends HTMLElement {
                     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
                     max-width: 800px;
                     margin: auto;
-                }
+                } 
                 h1 {
                     text-align: center;
                     color: #007bff;
@@ -32,6 +32,10 @@ class PremiosOscar extends HTMLElement {
                     height: auto;
                     border-radius: 5px;
                     object-fit: cover;
+                    transition: transform 0.3s ease-in-out;
+                }
+                .award img:hover {
+                    transform: scale(1.2);
                 }
                 .award-info {
                     flex: 1;
